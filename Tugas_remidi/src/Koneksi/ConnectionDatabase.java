@@ -22,7 +22,7 @@ public class ConnectionDatabase {
 
         prop.load(input);
 
-        String url = prop.getProperty("db.url=jdbc:mysql://localhost:3306/users");
+        String url = prop.getProperty("db.url=jdbc:mysql://localhost:3306/loginform");
         String username = prop.getProperty("db.username");
         String password = prop.getProperty("db.password");
 
